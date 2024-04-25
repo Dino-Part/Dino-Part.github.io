@@ -1,0 +1,73 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Josefin Sans !important;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: #FBFF12;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #FF206E;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+nav{
+    text-align: center;
+    color: white;
+}
+
+.hero {
+    background-color: #FBFF12;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #FF206E;
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: #FF206E;
+    text-align: left;
+}
+
+footer {
+    background-color: #FF206E;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10em;
+    height: 100px;
+}
+.duma{
+    font-size: 23px;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 1em;
+    line-height: 110%;
+}
+.fészbúk{
+    background-color: #41EAD4;
+    padding: 3px;
+    color: white;
+}
+
+/* https://coolors.co/0c0f0a-ff206e-fbff12-41ead4-ffffff
